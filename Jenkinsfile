@@ -1,11 +1,10 @@
-groovy
-     pipeline {
-         agent any
-         stages {
-             stage('Greeting') {
-                 steps {
-                     echo 'Hello from Jenkins Pipeline!'
-                 }
-             }
-         }
-     }
+pipeline {
+    agent any
+    stages {
+        stage('Greeting') {
+            steps {
+                echo 'Hello from Jenkins Pipeline!'
+            }
+        }
+    }
+}
